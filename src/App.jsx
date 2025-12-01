@@ -2,6 +2,7 @@ import TopHeader from './components/Header/TopHeader'
 import MidHeader from './components/Header/MidHeader'
 import DownHeader from './components/Header/DownHeader'
 import Hero from "./components/Hero/Hero"
+import IconsSection from "./components/IconsSection/IconsSection"
 
 import Typography from "@mui/material/Typography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
@@ -22,6 +23,7 @@ function App() {
     <MidHeader/>
     <DownHeader/>
     <Hero/>
+    <IconsSection/>
 
 
     <div className="App">

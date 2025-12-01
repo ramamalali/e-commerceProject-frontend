@@ -39,6 +39,12 @@
   justify-content: center;
   align-items: center;
 }
+.swiper-slide:hover{
+  cursor: grap;
+}
+.swiper-slide:active{
+  cursor: grapping;
+}
 
 .swiper-slide img {
   display: block;
@@ -51,4 +57,10 @@
   padding: 5px 10px;
   background-color: black;
   color: white;
+}
+
+@media (max-width : 600px){
+  .parent-slider img {
+    display: none;
+  }
 }
