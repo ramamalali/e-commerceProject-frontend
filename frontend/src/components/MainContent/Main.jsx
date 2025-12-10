@@ -37,8 +37,7 @@ export default function Main() {
   const theme = useTheme();
 
   const allProductsAPI = "products?populate=*";
-  const menCategoryAPI =
-    "products?populate=*&filters[productCategory][$eq]=men";
+  const menCategoryAPI ="products?populate=*&filters[productCategory][$eq]=men";
   const womenCategoryAPI =
     "products?populate=*&filters[productCategory][$eq]=women";
   const [myData, setMyData] = useState(allProductsAPI);
@@ -127,8 +126,7 @@ export default function Main() {
             flexWrap={"wrap"}
             justifyContent={"space-between"}
           >
-            {data &&
-              data.map((item) => {
+            {data.data.map((item) => {
                 return (
                   <Card
                     key={item.id}
