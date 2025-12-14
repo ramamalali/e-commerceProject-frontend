@@ -60,7 +60,7 @@ npm run dev
 ```bash
 npm run build
 ```
-
+---
 
 ## 🔌 API & Backend Setup
 
@@ -78,6 +78,7 @@ API URLs can be configured inside:
 ```
 
 ---
+```
  📂 Project Structure
 ecommerce-app/
 frontend/
@@ -124,15 +125,22 @@ frontend/
 │── README.md
 ─ README.md
 
+```
+
+---
+
 ### 🚀 Deployment
 The project is deployed using Firebase Hosting:
 
 ```bash
 firebase deploy
 ```
+---
 
 ## 🌟 Demo
 (https://e-commerce-78063.web.app/)
+
+---
 
 ## 🧑‍💻 Developer
 Developed by Rama Alali
