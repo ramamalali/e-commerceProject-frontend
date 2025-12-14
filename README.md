@@ -11,9 +11,9 @@ Animations are powered by **Framer Motion**, and product sliders are implemented
 - 🛍️ Dynamic product listing fetched from Strapi using RTK Query  
 - 🖼️ High‑quality images served from Cloudinary CDN  
 - 🎞️ Smooth animations using Framer Motion  
-- 🌀 Interactive product sliders built with Swiper  
-- 🛒 Add to cart / remove from cart  
-- 🔍 Product details page with dynamic routing  
+- 🌀 Interactive product slider built with Swiper  
+- 🌗 Light & Dark Mode toggle 
+- 🔍 A dialog opens to display detailed information about the selected product   
 - 📱 Fully responsive design  
 - 🚀 Frontend hosted on Firebase  
 - ⚡ Fast performance thanks to Vite  
@@ -44,18 +44,22 @@ Animations are powered by **Framer Motion**, and product sliders are implemented
 git clone https://github.com/ramamalali/e-commerceProject-frontend
 .git
 cd frontend
+```
 
 ### 2. Install dependencies
 ```bash
 npm install
+```
 
 ### 3. Run the development server
 ```bash
 npm run dev
+```
 
 ### 4. Build for production
 ```bash
 npm run build
+```
 
 
 ## 🔌 API & Backend Setup
@@ -70,7 +74,8 @@ Images are stored and served through Cloudinary
 
 API URLs can be configured inside:
 ```bash
-src/services/api.js
+(https://e-commerceproject-backend-8e9t.onrender.com/api/products)
+```
 
  📂 Project Structure
 ecommerce-app/
@@ -123,6 +128,7 @@ The project is deployed using Firebase Hosting:
 
 ```bash
 firebase deploy
+```
 
 ## 🌟 Demo
 (https://e-commerce-78063.web.app/)
