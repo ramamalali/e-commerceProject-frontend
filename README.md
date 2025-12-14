@@ -44,15 +44,19 @@ Animations are powered by **Framer Motion**, and product sliders are implemented
 git clone https://github.com/ramamalali/e-commerceProject-frontend
 .git
 cd frontend
+
 ### 2. Install dependencies
 ```bash
 npm install
+
 ### 3. Run the development server
 ```bash
 npm run dev
+
 ### 4. Build for production
 ```bash
 npm run build
+
 
 ## 🔌 API & Backend Setup
 
@@ -68,7 +72,7 @@ API URLs can be configured inside:
 ```bash
 src/services/api.js
 
-## 📂 Project Structure
+ 📂 Project Structure
 ecommerce-app/
 frontend/
 │── public/
@@ -128,6 +132,3 @@ Developed by Rama Alali
 
 This project is for training purposes. Please let me know if you have any feedback.
 
-
-- Cloudinary (images)  
-- Firebase Hosting
