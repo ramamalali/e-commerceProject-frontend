@@ -77,6 +77,7 @@ API URLs can be configured inside:
 (https://e-commerceproject-backend-8e9t.onrender.com/api/products)
 ```
 
+---
  📂 Project Structure
 ecommerce-app/
 frontend/
